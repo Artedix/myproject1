@@ -1,0 +1,170 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: auto;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    width: 100%;
+    background: url(Images/background.jpg)
+        center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+  }
+
+/* header */
+.header {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 5px;
+}
+
+
+.header_inner {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_logo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.nav {
+    margin-right: -100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.nav_link {
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear;
+    padding-bottom: 10px;
+}
+
+.nav_link:hover {
+    color:dodgerblue
+}
+
+.form {
+    color: #fff;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 200vh;
+    margin: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    background-attachment: scroll;
+}
+
+.logo {
+    background: rgba(0, 0, 0, 1);
+    padding: 10px;
+    margin-top: -20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.footer_inner {
+    display: flex;
+
+    margin-left: -68px;
+    margin-top: 50px;
+    
+}
+
+.footer_inner1 {
+    justify-content: space-between;  
+    display: flex;
+}
+
+.contact_logo {
+    margin-left: -80px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.help {
+    margin-top: 40px;
+    margin-right: -50px;
+    margin-bottom: -50px;
+}
+
+.contact {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.contact_pochta {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;  
+    text-decoration: none;  
+    transition: color .2s linear;
+}
+
+.contact_pochta:hover {
+    color:dodgerblue
+}
+
+.social_net {
+    margin-right: 10px;
+
+}
+
+.fond_text {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1000px;
+    margin-top: -100px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.footer {
+    background: #000;
+    color: #fff; 
+    margin-top: 1800px;
+ 
+}
+
+.section {
+    padding: 20px 0;
+    height: auto;
+  
+}
